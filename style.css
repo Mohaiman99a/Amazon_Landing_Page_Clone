@@ -300,3 +300,19 @@ ul a{
         display:none;
     }
 }
+
+
+/**Hover**/
+.box{
+    height: 400px;
+    width: 29%;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    background-color: azure;
+
+    transition: 0.3s;   /* Smooth animation */
+}
+
+.box:hover{
+    transform: translateY(-5px);
+}
