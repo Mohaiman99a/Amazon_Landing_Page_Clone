@@ -171,12 +171,20 @@ span{
     background-color:#efefeb;
     padding-bottom: 28px;   /*Margin bottom wouldn't color the margin*/
 }
+
 .box{
     height: 400px;
     width: 29%;
     padding: 20px 0px 15px;
     margin: 15px;
-    background-color:azure;
+    background-color: azure;
+
+    transition: 0.3s;   /* Smooth animation */
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 @media (max-width:768px){    /*Scale for mobile*/
@@ -302,18 +310,4 @@ ul a{
 }
 
 
-/**Hover**/
-.box{
-    height: 400px;
-    width: 29%;
-    padding: 20px 0px 15px;
-    margin: 15px;
-    background-color: azure;
 
-    transition: 0.3s;   /* Smooth animation */
-}
-
-.box:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
