@@ -21,7 +21,7 @@ A front-end Amazon homepage clone built using HTML and CSS for learning and prac
 ## Live Demo
 
 GitHub Pages Link:
-https://YOUR_USERNAME.github.io/amazon-clone/
+https://Mohaiman99a.github.io/Amazon_Landing_Page_Clone/
 
 
 ## Disclaimer
