@@ -27,4 +27,4 @@ https://Mohaiman99a.github.io/Amazon_Landing_Page_Clone/
 ## Disclaimer
 
 This project is for educational purposes only and is not affiliated with or endorsed by Amazon.
-# Amazon_Landing_Page_Clone
+
