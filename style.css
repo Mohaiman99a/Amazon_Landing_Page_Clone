@@ -292,6 +292,14 @@ ul a{
 }
 
 
+@media (max-width:768px){
+    .shop{
+        flex-direction: column;
+    }
 
+    .box{
+        width:90%;
+    }
+}
 
 
