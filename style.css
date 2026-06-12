@@ -292,9 +292,14 @@ ul a{
 }
 
 
+
+
+/*Box mobile scalable*/
 @media (max-width:768px){
+
     .shop{
         flex-direction: column;
+        align-items: center;
     }
 
     .box{
@@ -303,3 +308,34 @@ ul a{
 }
 
 
+/**nav-bar mobile scalable**/
+@media (max-width:768px){
+
+    .shop{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width:90%;
+    }
+}
+
+
+/*Panel mobile scalable*/
+@media (max-width:768px){
+
+    .panel-options,
+    .panel-deals{
+        display:none;
+    }
+}
+
+/*Footer mobile scalable*/
+@media (max-width:768px){
+
+    .foot-panel02{
+        flex-direction: column;
+        height:auto;
+    }
+}
