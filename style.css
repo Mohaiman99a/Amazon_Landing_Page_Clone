@@ -1,7 +1,7 @@
 *{
     margin:0;
     font-family: Arial;
-    border: border-box;
+    border-sizing: border-box;
 }
 
 .navbar{
@@ -83,7 +83,7 @@
 .search-input{
     width:100%;
     font-size:1rem;
-    border:null;
+    border:none;
 }
 
 .search-icon{
@@ -294,48 +294,53 @@ ul a{
 
 
 
-/*Box mobile scalable*/
+/* Mobile Layout */
 @media (max-width:768px){
 
-    .shop{
-        flex-direction: column;
-        align-items: center;
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
     }
 
-    .box{
-        width:90%;
-    }
-}
-
-
-/**nav-bar mobile scalable**/
-@media (max-width:768px){
-
-    .shop{
-        flex-direction: column;
-        align-items: center;
+    .nav-search{
+        width: 95%;
+        margin: 10px;
+        order: 1;
     }
 
-    .box{
-        width:90%;
+    .nav-signin,
+    .nav-return{
+        display: none;
     }
-}
 
-
-/*Panel mobile scalable*/
-@media (max-width:768px){
+    .panel{
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
 
     .panel-options,
     .panel-deals{
-        display:none;
+        display: none;
     }
-}
 
-/*Footer mobile scalable*/
-@media (max-width:768px){
+    .shop{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .hero-section{
+        background-position: center;
+        background-size: cover;
+        height: 30vh;
+    }
 
     .foot-panel02{
         flex-direction: column;
-        height:auto;
+        height: auto;
     }
 }
